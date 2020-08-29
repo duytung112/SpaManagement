@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="864256c7-3de3-428a-9570-f858e700a863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,8 @@
       <workItem from="1598448427422" duration="6707000" />
       <workItem from="1598626194456" duration="261000" />
       <workItem from="1598626473066" duration="1278000" />
-      <workItem from="1598667474242" duration="7160000" />
+      <workItem from="1598667474242" duration="7547000" />
+      <workItem from="1598682824460" duration="1722000" />
     </task>
     <servers />
   </component>
@@ -182,10 +184,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1598671685302">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1598684214586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598671685302" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598684214586" />
     <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1598457799261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,14 +208,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598626531741" />
-    <state x="631" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1598667613293">
+    <state x="631" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1598682852265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598438900803" />
-    <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598667613293" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598674723485">
+    <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598682852265" />
+    <state x="673" y="153" width="607" height="734" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1598684209580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598674723485" />
+    <state x="673" y="153" width="607" height="734" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598684209580" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598684231611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598684231611" />
   </component>
 </project>
