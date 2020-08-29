@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->char('name',255);
             $table->char('price',1000);
             $table->text('description');
+            $table->foreign('cat_id')->references('id')->on('category');
             $table->timestamps();
         });
     }
