@@ -23,4 +23,6 @@ Route::resource('customer','CustomerController');
 Route::resource('category','CategoryController');
 Route::resource('service','ServiceController');
 Route::resource('product','ProductController');
+
+Route::get('/dashboard','HomeController@dashboard')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
