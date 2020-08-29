@@ -142,7 +142,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -168,6 +168,8 @@
       <workItem from="1598438900835" duration="103000" />
       <workItem from="1598448427422" duration="6707000" />
       <workItem from="1598626194456" duration="261000" />
+      <workItem from="1598626473066" duration="1278000" />
+      <workItem from="1598667474242" duration="1199000" />
     </task>
     <servers />
   </component>
@@ -191,15 +193,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598457799260" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1598626459358">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1598626531741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598626459358" />
-    <state x="631" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1598626194463">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598626531741" />
+    <state x="631" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1598667613293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598438900803" />
-    <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598626194463" />
+    <state x="631" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598667613293" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598457250416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
