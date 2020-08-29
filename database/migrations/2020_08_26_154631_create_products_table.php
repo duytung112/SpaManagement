@@ -15,8 +15,9 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('cat_id');
             $table->char('name',255);
-            $table->char('price',1000);
+            $table->char('price',250);
             $table->text('description');
             $table->foreign('cat_id')->references('id')->on('category');
             $table->timestamps();
