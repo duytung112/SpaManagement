@@ -3,15 +3,17 @@
 @section('content')
     <div class="container">
         <h1>Customer List</h1>
-            <table class="table table-light table-hover table-responsive">
-                <thead>
-                    <td>ID</td>
-                    <td>Name</td>
-                    <td>Phone</td>
-                    <td>Address</td>
-                    <td>Date of Birth</td>
-                    <td>Description</td>
-                    <td>Reason</td>
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Date of Birth</th>
+                        <th>Description</th>
+                        <th>Reason</th>
+                    </tr>
                 </thead>
                 @foreach($customers as $customer)
                 <tr>
