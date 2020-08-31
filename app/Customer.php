@@ -11,6 +11,16 @@ use Illuminate\Database\Eloquent\Model;
 class Customer extends Model
 {
     /**
+     * @var string
+     */
+    public $table = 'customers';
+
+    /**
+     * @var string
+     */
+    public $primaryKey = 'id';
+
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function service()
