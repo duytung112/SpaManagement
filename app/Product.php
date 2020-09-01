@@ -11,6 +11,15 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     /**
+     * @var string
+     */
+    public $table = 'product';
+
+    /**
+     * @var string
+     */
+    public $primaryKey = 'id';
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function customer()
