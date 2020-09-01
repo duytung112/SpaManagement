@@ -11,6 +11,16 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     /**
+     * @var string
+     */
+    public $table = 'category';
+
+    /**
+     * @var string
+     */
+    public $primaryKey = 'id';
+
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function product()
