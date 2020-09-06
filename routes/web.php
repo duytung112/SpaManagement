@@ -24,5 +24,8 @@ Route::resource('category','CategoryController');
 Route::resource('service','ServiceController');
 Route::resource('product','ProductController');
 
+Route::get('/admin', function (){
+    return view('layouts.admin');
+});
 Route::get('/dashboard','HomeController@dashboard')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
