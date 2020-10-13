@@ -1,5 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
+@section('title')
+
+@endsection
 @section('content')
     <div class="container">
         <h1>Customer List</h1>
